@@ -11,6 +11,7 @@ contract WalmartPaymentSystem {
     struct StoreProduct {
         string productName;
         string productID;
+        string uri;
         Store store;
     }
     struct Transection {
@@ -31,6 +32,7 @@ contract WalmartPaymentSystem {
         address payable OwnerAccount,
         string memory productName,
         string memory productID,
+        string memory productURI,
         string memory storeType,
         string memory storeName,
         string memory storeId
@@ -57,6 +59,7 @@ contract WalmartPaymentSystem {
         StoreProduct memory storeProduct = StoreProduct(
             productName,
             productID,
+            productURI,
             store
         );
         Transection memory transection = Transection(
