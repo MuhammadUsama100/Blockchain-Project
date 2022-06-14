@@ -1,0 +1,23 @@
+{
+  "name": "blockchain-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadUsama100/Blockchain-Project.git"
+  },
+  "author": "Muhammad Usama (k18-0154)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuhammadUsama100/Blockchain-Project/issues"
+  },
+  "homepage": "https://github.com/MuhammadUsama100/Blockchain-Project#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.6.0",
+    "truffle": "^5.5.18"
+  }
+}
